@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	/* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+	border: 0;
+	/* 取消图片底侧有空白缝隙的问题 */
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(51, 51, 51);
+}
+
+button,
+input {
+	border: 0;
+	outline: none;
+}
+
+.w {
+	width: 1220px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.item2{
+	display: none;
+}
+.item3{
+	display: none;
+}
+.item4{
+	display: none;
+}
+
+.animate__animated {
+  --animate-duration: 1s;
+}
+
